@@ -48,7 +48,7 @@ export const EditorialStory: React.FC<EditorialStoryProps> = ({ language }) => {
             {/* Overlapping Small Detail Photo */}
             <div className="hidden sm:block absolute -bottom-8 -right-6 w-40 md:w-48 aspect-square rounded-xl overflow-hidden border-4 border-[#E2DFD8] shadow-xl">
               <img
-                src="/src/assets/images/maison_mango_coco_1785928338386.jpg"
+                src="/src/public/assets/images/maison_mango_coco_1785928338386.jpg"
                 alt="Mango Coco Matcha Detail"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"
