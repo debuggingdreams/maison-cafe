@@ -24,7 +24,7 @@ export const Hero: React.FC<HeroProps> = ({
       title: 'Mango Coco Matcha',
       subtitle: 'Ceremonial Grade Uji Matcha',
       tag: 'Instagram Viral',
-      image: '/src/assets/images/maison_mango_coco_1785928338386.jpg',
+      image: 'src/assets/images/maison_mango_coco_1785928338386.jpg',
       badge: 'LaSalle #1 Signature',
       price: '$8.50'
     },
@@ -33,7 +33,7 @@ export const Hero: React.FC<HeroProps> = ({
       title: 'Saumon Fumé Bagel',
       subtitle: 'Wood-Fired Sesame Bagel & House Cream Cheese',
       tag: 'Fresh Daily',
-      image: '/src/assets/images/maison_bagel_salmon_1785928358337.jpg',
+      image: 'src/assets/images/maison_bagel_salmon_1785928358337.jpg',
       badge: 'Montréal Tradition',
       price: '$12.00'
     },
@@ -42,7 +42,7 @@ export const Hero: React.FC<HeroProps> = ({
       title: 'Maison Concrete Studio',
       subtitle: 'Raw Plaster Architecture & Morning Sunlight',
       tag: 'Quiet Sanctuary',
-      image: '/src/assets/images/maison_hero_coffee_1785928324393.jpg',
+      image: 'src/assets/images/maison_hero_coffee_1785928324393.jpg',
       badge: 'LaSalle, QC',
       price: 'Open 7/7'
     }
