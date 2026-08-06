@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --concrete-wall-image: url('/src/assets/images/concrete_wall_bg_1786002040539.jpg');
+  --concrete-wall-image: url('/src/public/assets/images/concrete_wall_bg_1786002040539.jpg');
 }
 
 @layer base {
