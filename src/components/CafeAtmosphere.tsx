@@ -12,21 +12,21 @@ export const CafeAtmosphere: React.FC<CafeAtmosphereProps> = ({ language }) => {
 
   const carouselItems = [
     {
-      url: '/src/assets/images/maison_hero_coffee_1785928324393.jpg',
+      url: '/src/public/assets/images/maison_hero_coffee_1785928324393.jpg',
       title: 'Architectural Cement Sanctuary',
       subtitle: 'Raw plaster finishes, minimal concrete counters, and warm ambient glow.',
       tag: 'Interior & Design',
       location: 'LaSalle, QC'
     },
     {
-      url: '/src/assets/images/maison_mango_coco_1785928338386.jpg',
+      url: '/src/public/assets/images/maison_mango_coco_1785928338386.jpg',
       title: 'Mango Coco Matcha Infusion',
       subtitle: 'First-flush Japanese Uji matcha gently layered over ripe mango puree and coconut cream.',
       tag: 'Instagram Favorite',
       location: 'Signature Beverage'
     },
     {
-      url: '/src/assets/images/maison_bagel_salmon_1785928358337.jpg',
+      url: '/src/public/assets/images/maison_bagel_salmon_1785928358337.jpg',
       title: 'Saumon Fumé Bagel',
       subtitle: 'Wood-fired sesame bagel toasted crisp with dill cream cheese, capers, and red onion.',
       tag: 'Montréal Culinary Classic',
