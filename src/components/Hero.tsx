@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Language } from '../types';
 import { Calendar, ArrowDown, Sparkles, MapPin, Coffee, Star, Clock, ChevronLeft, ChevronRight, Heart } from 'lucide-react';
+import { heroCoffeeImage, mangoCocoImage, bagelSalmonImage } from '../assets/imageAssets';
 
 interface HeroProps {
   language: Language;
@@ -24,7 +25,7 @@ export const Hero: React.FC<HeroProps> = ({
       title: 'Mango Coco Matcha',
       subtitle: 'Ceremonial Grade Uji Matcha',
       tag: 'Instagram Viral',
-      image: '/src/assets/images/maison_mango_coco_1785928338386.jpg',
+      image: mangoCocoImage,
       badge: 'LaSalle #1 Signature',
       price: '$8.50'
     },
@@ -33,7 +34,7 @@ export const Hero: React.FC<HeroProps> = ({
       title: 'Saumon Fumé Bagel',
       subtitle: 'Wood-Fired Sesame Bagel & House Cream Cheese',
       tag: 'Fresh Daily',
-      image: '/src/assets/images/maison_bagel_salmon_1785928358337.jpg',
+      image: bagelSalmonImage,
       badge: 'Montréal Tradition',
       price: '$12.00'
     },
@@ -42,7 +43,7 @@ export const Hero: React.FC<HeroProps> = ({
       title: 'Maison Concrete Studio',
       subtitle: 'Raw Plaster Architecture & Morning Sunlight',
       tag: 'Quiet Sanctuary',
-      image: '/src/assets/images/maison_hero_coffee_1785928324393.jpg',
+      image: heroCoffeeImage,
       badge: 'LaSalle, QC',
       price: 'Open 7/7'
     }

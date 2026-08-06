@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Camera, Download, RefreshCw, Heart } from 'lucide-react';
 import { Language } from '../types';
 import { MaisonLogo } from './MaisonLogo';
+import { heroCoffeeImage, mangoCocoImage, bagelSalmonImage } from '../assets/imageAssets';
 
 interface PhotoboothProps {
   language: Language;
@@ -15,12 +16,12 @@ export const Photobooth: React.FC<PhotoboothProps> = ({ language }) => {
   const photoPresets = [
     [
       'https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=600&auto=format&fit=crop',
-      '/src/assets/images/maison_mango_coco_1785928338386.jpg',
+      mangoCocoImage,
       'https://images.unsplash.com/photo-1517256064527-09c73fc73e38?q=80&w=600&auto=format&fit=crop',
     ],
     [
-      '/src/assets/images/maison_hero_coffee_1785928324393.jpg',
-      '/src/assets/images/maison_bagel_salmon_1785928358337.jpg',
+      heroCoffeeImage,
+      bagelSalmonImage,
       'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=600&auto=format&fit=crop',
     ]
   ];

@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Language } from '../types';
 import { Sparkles, Award, Compass, Heart } from 'lucide-react';
+import { mangoCocoImage } from '../assets/imageAssets';
 
 interface EditorialStoryProps {
   language: Language;
@@ -48,7 +49,7 @@ export const EditorialStory: React.FC<EditorialStoryProps> = ({ language }) => {
             {/* Overlapping Small Detail Photo */}
             <div className="hidden sm:block absolute -bottom-8 -right-6 w-40 md:w-48 aspect-square rounded-xl overflow-hidden border-4 border-[#E2DFD8] shadow-xl">
               <img
-                src="/src/assets/images/maison_mango_coco_1785928338386.jpg"
+                src={mangoCocoImage}
                 alt="Mango Coco Matcha Detail"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"

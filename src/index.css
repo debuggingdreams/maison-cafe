@@ -1,11 +1,15 @@
 @import "tailwindcss";
 
+:root {
+  --concrete-wall-image: url('/src/assets/images/concrete_wall_bg_1786002040539.jpg');
+}
+
 @layer base {
   html {
     font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     scroll-behavior: smooth;
     background-color: #8E8C87;
-    background-image: url('/src/assets/images/concrete_wall_bg_1786002040539.jpg');
+    background-image: var(--concrete-wall-image);
     background-repeat: repeat;
     background-size: 800px 800px;
     background-attachment: fixed;
@@ -14,7 +18,7 @@
 
   body {
     background-color: #8E8C87;
-    background-image: url('/src/assets/images/concrete_wall_bg_1786002040539.jpg');
+    background-image: var(--concrete-wall-image);
     background-repeat: repeat;
     background-size: 800px 800px;
     background-attachment: fixed;
@@ -29,7 +33,7 @@
 /* Custom micro-cement plaster wall texture classes */
 .concrete-bg {
   background-color: #8E8C87;
-  background-image: url('/src/assets/images/concrete_wall_bg_1786002040539.jpg');
+  background-image: var(--concrete-wall-image);
   background-repeat: repeat;
   background-size: 800px 800px;
   background-attachment: fixed;
@@ -37,7 +41,7 @@
 
 .concrete-texture {
   background-color: rgba(142, 140, 135, 0.4);
-  background-image: url('/src/assets/images/concrete_wall_bg_1786002040539.jpg');
+  background-image: var(--concrete-wall-image);
   background-repeat: repeat;
   background-size: 600px 600px;
 }

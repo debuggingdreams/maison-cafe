@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Language } from '../types';
 import { ChevronLeft, ChevronRight, Camera, Sparkles, MapPin, Instagram } from 'lucide-react';
+import { heroCoffeeImage, mangoCocoImage, bagelSalmonImage } from '../assets/imageAssets';
 
 interface CafeAtmosphereProps {
   language: Language;
@@ -12,21 +13,21 @@ export const CafeAtmosphere: React.FC<CafeAtmosphereProps> = ({ language }) => {
 
   const carouselItems = [
     {
-      url: '/src/assets/images/maison_hero_coffee_1785928324393.jpg',
+      url: heroCoffeeImage,
       title: 'Architectural Cement Sanctuary',
       subtitle: 'Raw plaster finishes, minimal concrete counters, and warm ambient glow.',
       tag: 'Interior & Design',
       location: 'LaSalle, QC'
     },
     {
-      url: '/src/assets/images/maison_mango_coco_1785928338386.jpg',
+      url: mangoCocoImage,
       title: 'Mango Coco Matcha Infusion',
       subtitle: 'First-flush Japanese Uji matcha gently layered over ripe mango puree and coconut cream.',
       tag: 'Instagram Favorite',
       location: 'Signature Beverage'
     },
     {
-      url: '/src/assets/images/maison_bagel_salmon_1785928358337.jpg',
+      url: bagelSalmonImage,
       title: 'Saumon Fumé Bagel',
       subtitle: 'Wood-fired sesame bagel toasted crisp with dill cream cheese, capers, and red onion.',
       tag: 'Montréal Culinary Classic',

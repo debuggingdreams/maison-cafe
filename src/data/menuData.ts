@@ -1,4 +1,5 @@
 import { MenuItem, PresetDrink } from '../types';
+import { bagelSalmonImage, mangoCocoImage } from '../assets/imageAssets';
 
 export const MENU_ITEMS: MenuItem[] = [
   // BAGELS
@@ -38,7 +39,7 @@ export const MENU_ITEMS: MenuItem[] = [
       FR: 'Bagel de votre choix avec saumon fumé, fromage à la crème, câpres et oignons marinés.'
     },
     tags: ['House Special', 'Best Seller'],
-    image: '/src/assets/images/maison_bagel_salmon_1785928358337.jpg',
+    image: bagelSalmonImage,
     calories: 480,
     featured: true
   },
@@ -186,7 +187,7 @@ export const MENU_ITEMS: MenuItem[] = [
       FR: 'Signature maison étagée : purée de mangue, thé matcha Uji glacé et mousse de coco.'
     },
     tags: ['House Special', 'Best Seller'],
-    image: '/src/assets/images/maison_mango_coco_1785928338386.jpg',
+    image: mangoCocoImage,
     calories: 230,
     featured: true
   },
